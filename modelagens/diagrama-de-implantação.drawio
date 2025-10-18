@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
+  <diagram name="Página-1" id="09aGdgEOs7ynTsPnOihw">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-113" value="Dispositivo do Usuário" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-115" value="Browser" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.application;appType=artifact;archiType=square;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-116" value="Internet&amp;nbsp;&lt;div&gt;(HTTPS)&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="185" y="585" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NDkicvjiBp9xYqSU2yI_-113" target="NDkicvjiBp9xYqSU2yI_-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-118" value="AWS Cloud" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="1420" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-119" value="Server / Aplicação" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="1200" width="1112.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-120" value="SGO API Gateway" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-121" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-120">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-122" value="Módulo de&amp;nbsp;&lt;div&gt;Competição&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-123" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-122">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-124" value="Amazon VPC" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="720" width="1379" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDkicvjiBp9xYqSU2yI_-125" target="NDkicvjiBp9xYqSU2yI_-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-125" value="AWS WAF (Firewall)" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="175" y="760" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="NDkicvjiBp9xYqSU2yI_-116" target="NDkicvjiBp9xYqSU2yI_-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="NDkicvjiBp9xYqSU2yI_-127" target="NDkicvjiBp9xYqSU2yI_-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-127" value="Application Load Balancer" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="920" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-129" value="Amazon RDS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1175" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-130" value="PostgreSQL" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.application;appType=artifact;archiType=square;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-132" value="ECS" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1160" width="1145" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-133" value="Módulo de&amp;nbsp;&lt;div&gt;Inscrição&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-134" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-133">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-135" value="Módulo de&amp;nbsp;&lt;div&gt;Alocação&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-136" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-135">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-137" value="Módulo de&amp;nbsp;&lt;div&gt;Relatórios&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-138" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-137">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-139" value="Módulo de&amp;nbsp;&lt;div&gt;Resultados&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1250" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-140" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="NDkicvjiBp9xYqSU2yI_-139">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NDkicvjiBp9xYqSU2yI_-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.003;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.813;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NDkicvjiBp9xYqSU2yI_-119" target="NDkicvjiBp9xYqSU2yI_-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="755" y="1120" />
+              <mxPoint x="260" y="1120" />
+              <mxPoint x="260" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
