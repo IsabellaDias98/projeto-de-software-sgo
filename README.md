@@ -80,6 +80,10 @@ Para garantir que sejam usados corretamente.
 
 ## Diagramas
 
+**Diagrama de Casos de Uso**
+
+<img width="950px" height="500px" src="https://github.com/IsabellaDias98/projeto-de-software-sgo/blob/main/imagens/diagrama-de-casos-de-uso.png"/> 
+
 **Diagrama de Componentes**
 
 <img width="950px" height="500px" src="https://github.com/IsabellaDias98/projeto-de-software-sgo/blob/main/imagens/diagrama-de-componentes.png"/> 
